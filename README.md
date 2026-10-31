@@ -18,13 +18,13 @@ This is a new port from the JavaScript source, not a fork of [Pannoniae/BreakEte
 
 ## Install
 
-Copy `BigDouble.cs` and `LRUCache.cs` anywhere into your `Assets` folder. You need nothing else.
+Copy [`BigDouble.cs`](BigDouble.cs) and [`LRUCache.cs`](LRUCache.cs) anywhere into your `Assets` folder. You need nothing else.
 
 | Optional | What it does |
 |---|---|
-| `Editor/BigDoubleDrawer.cs` | Shows `BigDouble` fields in the Inspector as a text field |
-| `Editor/BigDoubleSelfTest.cs` | Adds *Tools > BreakEternity > Run Self-Test* |
-| `Example/BigDoubleExample.cs` | A small game: buying, display, saving, and migrating old `double` saves |
+| [`Editor/BigDoubleDrawer.cs`](Editor/BigDoubleDrawer.cs) | Shows `BigDouble` fields in the Inspector as a text field |
+| [`Editor/BigDoubleSelfTest.cs`](Editor/BigDoubleSelfTest.cs) | Adds *Tools > BreakEternity > Run Self-Test* |
+| [`Example/BigDoubleExample.cs`](Example/BigDoubleExample.cs) | A small game: buying, display, saving, and migrating old `double` saves |
 
 Keep the two `Editor` files in a folder named `Editor`. [README.de.md](README.de.md) is the full guide, in German.
 
